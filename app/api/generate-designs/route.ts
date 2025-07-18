@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import { fallbackDesigns } from '@/lib/fallback-designs';
-import { extractJsonFromMarkdown } from '@/lib/json-utils';
+import { fallbackDesigns } from '@/lib/fallback';
+import { extractJsonFromMarkdown } from '@/lib/json';
 
 const apiKey = process.env.GEMINI_API_KEY;
 if (!apiKey) {
