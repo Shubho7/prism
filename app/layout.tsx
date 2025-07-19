@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Prism Certificate Generator",
-  description: "AI-powered certificate generation with Google Gemini and Canvas.js",
+  title: "PrismAI",
+  description: "AI powered certificate generation with Google Gemini and Canvas.js",
 };
 
 export default function RootLayout({

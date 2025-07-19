@@ -391,7 +391,6 @@ const CertificateGenerator: React.FC = () => {
                   ) : (
                     <div className="text-center">
                       <div className="text-gray-400 text-lg mb-2">Click here to upload</div>
-                      <div className="text-gray-500 text-sm">Supports: JPG, PNG, GIF</div>
                     </div>
                   )}
                   <Input
